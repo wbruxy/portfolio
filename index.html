@@ -1,34 +1,104 @@
 <!DOCTYPE html>
-<html>
-    
+<html class="no-js" lang="en">
 <head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
     <title>Bruna Silva</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Favicon -->
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
     <link href="favicon.ico" rel="icon">
-    
-    <!-- CSS -->
-    <link href="css/style.css" rel="stylesheet">
 
 </head>
 
-<body>
-    <div class="home">
-        <nav>
-            <a class="navbar-brand" href="index.html">BS.</a>
-            <!--<ul>
-                <li><a href="">About</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">About</a></li>
-            </ul>-->
-        </nav>
-        <div class="text-box">
-            <h1>Bruna Silva</h1>
-            <h3>Transformo as necessidades, informações e sentimentos em websites</h3>
-        </div>
-    </div>
-</body>
+<body id="top">
 
-</html>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a href="index.html">BS.</a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Intro</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">Sobre</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Serviços</a></li>
+                <li><a class="smoothscroll" href="#works" title="works">Portfolio</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact us">Contato</a></li>	
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="intro-pic"></div>
+
+        <div class="row intro-content">
+
+            <div class="column large-9 mob-full intro-text">
+                
+                <h1>
+                    Bruna Silva
+                </h1>
+                <h3>Transformo as necessidades, informações e sentimentos em websites</h3>
+
+            </div>
+
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Rolar para baixo
+                </a>
+            </div>
+
+            
+
+        </div> <!-- end row -->
+
+    </section> <!-- end intro -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
