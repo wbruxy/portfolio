@@ -49,8 +49,8 @@
     * ------------------------------------------------------ */
     var ssMenuOnScrolldown = function() {
         
-        var hdr = $('.s-header'),
-            hdrTop = $('.s-header').offset().top;
+        var hdr = $('.header'),
+            hdrTop = $('.header').offset().top;
 
         $WIN.on('scroll', function() {
 
